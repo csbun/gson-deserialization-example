@@ -1,0 +1,11 @@
+{
+  "name": "11-27-gson-deserialization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "javac -classpath lib/gson-2.8.0.jar TestMain.java",
+    "start": "java -classpath .:lib/gson-2.8.0.jar TestMain"
+  },
+  "license": "MIT"
+}
